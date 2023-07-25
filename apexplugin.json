@@ -1,0 +1,34 @@
+{
+  "name" : "Item Option Manager Pro",
+  "version" : "23.1",
+  "description" : "Item Option Manager Pro is used for efficiently manipulating and controlling options within Select Lists, Radio Groups, and Checkbox Groups in APEX applications. It allows developers to dynamically enable, disable, hide, or show specific options based on various conditions or events. The plug-in eliminates the need for manual JavaScript coding and offers a user-friendly, declarative approach to option management. With Item Option Manager Pro, developers can save time, customize option behavior, and enhance the user experience within their APEX applications.",
+  "keywords" : ["Select List","Radio Group","Grid","Checkbox","Hide","Show","Enable","Disable","Options","Page Item"],
+  "homepage" : "https://www.plug-ins-pro.com/",
+  "bugs" : {
+    "url" : "https://github.com/plug-ins-pro/item_option_manager_pro/issues",
+    "email" : "info@plug-ins-pro.com"
+  },
+  "license" : "Commercial",
+  "commercial" : "Yes",
+  "author" : {
+    "name" : "United Codes",
+    "email" : "info@plug-ins-pro.com",
+    "url" : "https://www.united-codes.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/plug-ins-pro/enhanced-grid-pro"
+  },
+ "oracle" : {
+    "versions" : ["12.x", "18.x", "19.x", "21.x"],
+    "apex" : {
+      "versions" : ["19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "22.2.0", "23.1.0"],
+      "plugin" : {
+        "internalName" : "UNITEDCODES_ITEM_OPTION_MANAGER",
+        "type" : "dynamic action",
+        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/item_option_manager_pro/home",
+        "previewImage" : "https://www.apexrnd.be/ords/r/pluginspro_web/728/files/static/v9/plugins-pro-demonstration.gif"
+      }
+    }
+  }
+}  
